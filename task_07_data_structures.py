@@ -105,3 +105,26 @@ print("After learning Docker:", my_skills)
 print("\n--- Skill Checklist ---")
 for skill in my_skills:
     print(f"✅ I know {skill}")
+
+
+    #colours = ["red", "green", "blue", "yellow"]
+
+    #colors.remove("green")  # This line will raise a TypeError because .remove() only takes one argument    
+    #print(colors)
+
+    #colors = ["red", "green", "blue", "yellow"] 
+
+    #colors.remove("green")
+    #print(colors)  # Output: ['red', 'blue', 'yellow']
+
+
+
+    colors = ["red", "neonblue", "white", "maroon", "pink"]
+
+    item_to_remove = "neonblue"
+
+    if item_to_remove in colors:
+        colors.remove(item_to_remove)
+        print(f"Removed {item_to_remove} successfully!")
+    else:
+        print(f"{item_to_remove} not found in the list")   
